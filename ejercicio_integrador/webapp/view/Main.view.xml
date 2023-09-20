@@ -1,0 +1,13 @@
+<mvc:View controllerName="com.proy.ejerciciointegrador.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:core="sap.ui.core"
+    xmlns="sap.m"
+    displayBlock="true"
+    >
+    <Page id="page" title="{i18n>title}">
+         <content>
+            <core:Fragment type="XML" fragmentName="com.proy.ejerciciointegrador.fragments.toolbar" />
+            <core:Fragment type="XML" fragmentName="com.proy.ejerciciointegrador.fragments.table" />		
+        </content>
+    </Page>
+</mvc:View>

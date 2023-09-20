@@ -1,0 +1,64 @@
+<mvc:View controllerName="com.proy.ejerciciointegrador.controller.Supplier"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+	xmlns:f="sap.ui.layout.form"
+	xmlns:core="sap.ui.core">
+    
+   <VBox class="sapUiSmallMargin">
+        <Button text="{i18n>GoBack}" press="goBack" />
+		<f:Form id="FormDisplay354"
+			editable="false">
+			<f:title>
+				<core:Title  text="{itemModel>/CompanyName}" />
+			</f:title>
+			<f:layout>
+				<f:ResponsiveGridLayout
+					labelSpanXL="3"
+					labelSpanL="3"
+					labelSpanM="3"
+					labelSpanS="12"
+					adjustLabelSpan="false"
+					emptySpanXL="4"
+					emptySpanL="4"
+					emptySpanM="4"
+					emptySpanS="0"
+					columnsXL="1"
+					columnsL="1"
+					columnsM="1"
+					singleContainerFullSize="false" />
+			</f:layout>
+			<f:formContainers>
+				<f:FormContainer>
+					<f:formElements>
+						<f:FormElement label="{i18n>Address}">
+							<f:fields>
+								<Text text="{itemModel>/Address}" id="addressText"  />
+							</f:fields>
+						</f:FormElement>
+                        <f:FormElement label="{i18n>City}">
+							<f:fields>
+								<Text text="{itemModel>/City}" id="cityText"  />
+							</f:fields>
+						</f:FormElement>
+                        <f:FormElement label="{i18n>Country}">
+							<f:fields>
+								<Text text="{itemModel>/Country}" id="countryText"  />
+							</f:fields>
+						</f:FormElement>
+                        <f:FormElement label="{i18n>ContactName}">
+							<f:fields>
+								<Text text="{itemModel>/ContactName}" id="contactText"  />
+							</f:fields>
+						</f:FormElement>
+                        <f:FormElement label="{i18n>ContactTitle}">
+							<f:fields>
+								<Text text="{itemModel>/ContactTitle}" id="contactTitleText"  />
+							</f:fields>
+						</f:FormElement>
+					</f:formElements>
+				</f:FormContainer>
+			</f:formContainers>
+		</f:Form>
+	</VBox>
+</mvc:View>

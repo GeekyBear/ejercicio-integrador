@@ -1,0 +1,50 @@
+<core:FragmentDefinition
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core"
+>
+    <OverflowToolbar>
+        <ComboBox
+            id="comboBoxCountry"
+            change=".onSearchCountry"
+            placeholder="{i18n>SearchByCountry}"
+            items="{
+					path: 'mock>/Country'
+				}"
+        >
+            <core:Item
+                key="{mock>CountryID}"
+                text="{mock>Name}"
+            />
+        </ComboBox>
+        <ComboBox
+            id="comboBoxCity"
+            change=".onSearchCity"
+            placeholder="{i18n>SearchByCity}"
+            items="{
+                        path: 'mock>/Cities'
+                    }"
+        >
+            <core:Item
+                key="{mock>CityID}"
+                text="{mock>Name}"
+            />
+        </ComboBox>
+        <ComboBox
+            change=".onSearchContact"
+            id="comboBoxContact"
+            placeholder="{i18n>SearchByContact}"
+            items="{
+                        path: 'mock>/ContactTitle'
+                    }"
+        >
+            <core:Item
+                key="{mock>ContactID}"
+                text="{mock>Name}"
+            />
+        </ComboBox>
+        <Button
+            text="Clear filter"
+            press="clearFilter"
+        />
+    </OverflowToolbar>
+</core:FragmentDefinition>

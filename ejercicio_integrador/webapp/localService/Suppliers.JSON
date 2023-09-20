@@ -1,0 +1,45 @@
+{
+    "Country": [
+      { "CountryID": 1, "Name": "USA" },
+      { "CountryID": 2, "Name": "Germany"},
+      { "CountryID": 3, "Name": "Spain"},
+      { "CountryID": 4, "Name": "Japan"},
+      { "CountryID": 5, "Name": "Australia"},
+      { "CountryID": 6, "Name": "UK"},
+      { "CountryID": 7, "Name": "Brazil"},
+      { "CountryID": 8, "Name": "Italy"},
+      { "CountryID": 9, "Name": "Norway"},
+      { "CountryID": 10, "Name": "France"},
+      { "CountryID": 11, "Name": "Singapore"},
+      { "CountryID": 12, "Name": "Denmark"}
+    ],
+    "Cities": [
+      { "CityID": 1, "Name": "London" },
+      { "CityID": 2, "Name": "New Orleans"},
+      { "CityID": 3, "Name": "Tokyo"},
+      { "CityID": 4, "Name": "Oviedo"},
+      { "CityID": 5, "Name": "Melbourne"},
+      { "CityID": 6, "Name": "Manchester"},
+      { "CityID": 7, "Name": "Göteborg"},
+      { "CityID": 8, "Name": "Sao Paulo"},
+      { "CityID": 9, "Name": "Berlin"},
+      { "CityID": 10, "Name": "Ravenna"},
+      { "CityID": 11, "Name": "Sandvika"},
+      { "CityID": 12, "Name": "Paris"}
+    ],
+    "ContactTitle": [
+      { "ContactID": 1, "Name": "Sales Agent" },
+      { "ContactID": 2, "Name": "Sales Representative"},
+      { "ContactID": 3, "Name": "Sales Manager"},
+      { "ContactID": 4, "Name": "Regional Account Rep."},
+      { "ContactID": 5, "Name": "Coordinator Foreign Markets"},
+      { "ContactID": 6, "Name": "Wholesale Account Agent"},
+      { "ContactID": 7, "Name": "Purchasing Manager"},
+      { "ContactID": 8, "Name": "Order Administrator"},
+      { "ContactID": 9, "Name": "Export Administrator"},
+      { "ContactID": 10, "Name": "Marketing Manager"},
+      { "ContactID": 11, "Name": "International Marketing Mgr."},
+      { "ContactID": 12, "Name": "Owner"}
+    ]
+}
+
